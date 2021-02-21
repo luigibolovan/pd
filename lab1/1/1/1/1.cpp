@@ -102,9 +102,9 @@ void printImagePathForSubkeys(HKEY hRootKeyHandle, DWORD dwNoOfSubKeys)
             LPBYTE lpbData = (LPBYTE)malloc(MAX_IMAGE_PATH_LENGTH * sizeof(BYTE));
             DWORD dwDataSize = MAX_IMAGE_PATH_LENGTH;
 
-            LSTATUS statusQueryValue = RegQueryValueExA(
+            LSTATUS statusQueryValue = RegQueryValueEx(
                 hSubkeyHandle,
-                "ImagePath",
+                L"ImagePath",
                 NULL,
                 &dwType,
                 lpbData,
