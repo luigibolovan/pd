@@ -124,7 +124,7 @@ void printImagePathForDriverSubkeys(HKEY hRootKeyHandle, DWORD dwNoOfSubKeys)
             }
             if ((lpbDriverData[0] == KERNEL_DEVICE_DRIVER) || (lpbDriverData[0] == FILE_SYSTEM_DRIVER))
             {
-                // image path query
+                // ImagePath query
                 DWORD dwImgPathType     = REG_EXPAND_SZ;
                 LPBYTE lpbImgPathData   = (LPBYTE)malloc(MAX_IMAGE_PATH_LENGTH * sizeof(BYTE));
                 DWORD dwImgPathDataSize = MAX_IMAGE_PATH_LENGTH;
