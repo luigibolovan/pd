@@ -7,7 +7,7 @@
 - *stocare*: *SSD de capacitate 512 GB*
 
 #### Rezultate rulare cod initial
-![Initial result](lab2/memstatus_output_task_manager.PNG)
+![Initial result](memstatus_output_task_manager.PNG)
 
 ### Aplicatia
 
@@ -23,7 +23,7 @@ Enunt aplicatie:
 	printf("End address of unicode dinamically allocated string: %x\r\n", &wString[299999]);
 ```
 #### Rezultate
-![Result unicode](lab2/Unicode_string_allocation.PNG)
+![Result unicode](Unicode_string_allocation.PNG)
 
 ***600000*** octeti au fost alocati pentru sir in memorie(end address - start address + 1)
 
