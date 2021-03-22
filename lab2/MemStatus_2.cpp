@@ -46,6 +46,8 @@ int main()
 	printf("AvailableVirtual: %lld\n", memStat.ullAvailVirtual);
 
 	printf("Virtual address: &sinfo = %08Xh\n", (unsigned long)&sinfo);
+	
+	free(wString);
 
 	return 0;
 }
