@@ -15,7 +15,7 @@
 ### IOCTL_VIDEO_QUERY_DISPLAY_BRIGHTNESS
 Pentru a putea obtine informatii privind stralucirea display-ului si modul de rulare al acestuia, functia DeviceIOControl trebuie apelata in urmatorul mod:
 ```C
- result = DeviceIOControl(
+BOOL result = DeviceIOControl(
   (HANDLE) hDevice,
   IOCTL_VIDEO_QUERY_DISPLAY_BRIGHTNESS,
   NULL,
