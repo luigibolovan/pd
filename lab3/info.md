@@ -6,11 +6,11 @@
 - *stocare*: *SSD de capacitate 512 GB*
 
 ## Rezultate rulare cod initial
-![Initial result](lab3/physicaldrive0_results.PNG)
+![Initial result](physicaldrive0_results.PNG)
 
 ## Rezultate aplicatie modificata
 
-![Modified app result](lab3/display_results.PNG)
+![Modified app result](display_results.PNG)
 
 ### IOCTL_VIDEO_QUERY_DISPLAY_BRIGHTNESS
 Pentru a putea obtine informatii privind stralucirea display-ului si modul de rulare al acestuia, functia DeviceIOControl trebuie apelata in urmatorul mod:
